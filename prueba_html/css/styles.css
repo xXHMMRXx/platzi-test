@@ -65,3 +65,29 @@ html, body {
   align-items: center;
 
 }
+
+.footer {
+
+  width: auto;
+  height: 100px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.f-container {
+
+  width: 85.2%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  color: lightblue;
+  font-size: 50px;
+  font-weight: bold;
+
+}
