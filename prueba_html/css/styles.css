@@ -6,7 +6,7 @@ html, body {
 
 }
 
-.body-container {
+.main-container {
 
   background-color: #0f0f1a;
   width: 100%;
@@ -18,7 +18,7 @@ html, body {
 
 }
 
-.container {
+.body {
 
   width: 80%;
   height: 50%;
@@ -37,5 +37,31 @@ html, body {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+
+}
+
+.header {
+
+  width: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+
+}
+
+.h-container {
+
+  width: 85.2%;
+  height: 100px;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+  color: lightblue;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
